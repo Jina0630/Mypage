@@ -89,6 +89,7 @@
             fetch("http://spartacodingclub.shop/sparta_api/weather/seoul").then(res => res.json()).then(data => {
                 let number = data['temp']
                 $('#temp').text(number)  
+                //분명히 비주얼스튜디오에서 이 코드로 라이브 오픈했을때는 실시간 날씨가 적용됐는데 깃허브에 올려서 하려니까 안됌...문의하기
         })
     })    
 
